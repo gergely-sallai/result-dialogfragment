@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResultFragmentSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_enter">Enter text</string>
+    <string name="example_dialog">Example Dialog</string>
+    <string name="entered_text">Entered text:</string>
+    <string name="show_dial">Show dialog</string>
+    <string name="title_activity_activity_starts_dialog_fragment">ActivityStartsDialogFragment</string>
+    <string name="activity_listens">Activity Listens for dialog</string>
+    <string name="targetfragment_listens">Target Fragment listens</string>
+    <string name="manual_listener">Manually added listener listens</string>
+    <string name="title_activity_target_fragment_example">TargetFragmentExample</string>
+
+</resources>

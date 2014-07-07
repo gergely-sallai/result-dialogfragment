@@ -1,0 +1,7 @@
+*.swp
+.gradle/
+build/
+/.idea/*
+!/.idea/encodings.xml
+*.iml
+local.properties
