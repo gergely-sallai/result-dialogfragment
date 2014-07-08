@@ -58,15 +58,10 @@ public class ExampleFragmentDialog extends ResultDialogFragmentBase<ExampleFragm
     public static void showDialog(FragmentManager fragmentManager, Fragment targetFragment) {
         ExampleFragmentDialog dialog = (ExampleFragmentDialog) fragmentManager.findFragmentByTag(DIALOG_TAG);
         if (dialog == null) {
-            dialog = newInstance();
+            dialog = new ExampleFragmentDialog();
+            dialog.setCancelable(false);
             dialog.setTargetFragment(targetFragment, 0);
             dialog.show(fragmentManager, DIALOG_TAG);
         }
-    }
-
-    protected static ExampleFragmentDialog newInstance() {
-        ExampleFragmentDialog dialog = new ExampleFragmentDialog();
-        dialog.setCancelable(false);
-        return dialog;
     }
 }
